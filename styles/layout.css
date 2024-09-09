@@ -1,0 +1,20 @@
+#app {
+  display: grid;
+  grid-template-columns: 31.25% 68.75%;
+  gap: 1.5rem;
+
+  height: 100vh;
+  overflow: hidden;
+
+  background-color: var(--shape-background);
+  color: white;
+}
+
+aside {
+  border: 2px solid red;
+  padding: 1.5rem;
+}
+
+main {
+  border: 2px solid blue;
+}
