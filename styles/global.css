@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --brand-light: #59B2FF;
+  --brand-mid: #3487CF;
+  --brand-mid: #1D6FB6;
+
+  --input-base: #1C1F21;
+  --input-stroke: #363B40;
+  --input-placeholder: #869198;
+
+  --shape-background: #131516;
+  --shape-body: #212427;
+  --shape-button: #2D3136;
+  --shape-hover: #383D42;
+
+  --text-body: #C8CDD0;
+  --text-heading: #F9F9F9;
+
+  --heading-md: 700 1.75rem 'Baloo 2', sans-serif;
+  --heading-sm: 700 1.125rem 'Baloo 2', sans-serif;
+
+  --body-md: 400 1rem 'Open Sans', sans-serif;
+  --body-sm: 400 0.875rem 'Open Sans', sans-serif;
+  --body-xs: 400 0.75rem 'Open Sans', sans-serif;
+}
