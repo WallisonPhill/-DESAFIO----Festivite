@@ -28,3 +28,7 @@
   --body-sm: 400 0.875rem 'Open Sans', sans-serif;
   --body-xs: 400 0.75rem 'Open Sans', sans-serif;
 }
+
+body {
+  overflow: hidden;
+}

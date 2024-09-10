@@ -1,7 +1,7 @@
 #app {
   display: grid;
   grid-template-columns: 31.25% 68.75%;
-  gap: 1.5rem;
+  gap: 1rem;
 
   height: 100vh;
   overflow: hidden;
@@ -11,7 +11,6 @@
 }
 
 aside {
-  border: 2px solid red;
   padding: 1.5rem;
 }
 

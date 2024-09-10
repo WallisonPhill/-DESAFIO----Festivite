@@ -1,0 +1,27 @@
+main {
+  background-color: var(--shape-body);
+
+  border-radius: .75rem;
+
+  overflow: auto;
+
+  display: flex;
+  justify-content: center;
+
+  margin-block: 1.5rem;
+  padding-block: 5rem;  
+  
+  & .invite {
+    border: 2px solid white;
+    width: 100%;
+    height: 100%;
+    max-width: 51.25rem;
+  
+    border-radius: .75rem;
+  
+    & h2 {
+      font: var(--heading-md);
+      color: var(--text-heading);
+    }
+  }
+}
