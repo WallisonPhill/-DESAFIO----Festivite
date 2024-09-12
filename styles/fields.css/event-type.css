@@ -1,4 +1,6 @@
 .event-type {
+  width: fit-content;
+
   display: flex;
   gap: .5rem;
 
@@ -10,6 +12,7 @@
 }
 
 button {
+
   display: flex;
   gap: .5rem;
   align-items: center;

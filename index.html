@@ -41,61 +41,50 @@
             <div class="input-wrapper">
               <label for="title">Título</label>
               <input type="text" name="title" id="title" placeholder="Digite o título do evento">
-          </div>
+            </div>
           
-          <div class="input-wrapper">
-            <div class="date-time-container">
-              <div class="input-date-time">
-                <label for="start">Início</label>
-                <input type="datetime-local" name="start" id="start">
-              </div>  
-              
-              <div class="input-date-time">
-                <label for="end">Fim</label>
-                <input type="datetime-local" name="end" id="end">
-              </div>
-            </div>  
-          </div>
-
-          <div class="segmented-control">
-            <label for="option">Tipo</label>
-
-            <div class="event-type" >
-              <button>
-                <img src="./assets/icons/building-2.svg" alt="Ícone de um prédio">
-                <span>Presencial</span>
-              </button>
-
-              <button>
-                <img src="./assets/icons/video.svg" alt="Ícone de uma câmera">
-                <span>Presencial</span>
-              </button>
-
-            </div>
-          </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
             <div class="input-wrapper">
-              <label for="website">Local</label>
-              <input type="url" id="website" name="website" placeholder="Link ou endereço">
+              <div class="date-time-container">
+                <div class="input-date-time">
+                  <label for="start">Início</label>
+                  <input type="datetime-local" name="start" id="start">
+                </div>  
+                
+                <div class="input-date-time">
+                  <label for="end">Fim</label>
+                  <input type="datetime-local" name="end" id="end">
+                </div>
+              </div>  
             </div>
+
+            <div class="type-link flex">
+              <div class="segmented-control flex-1">
+                <label for="option">Tipo</label>
+
+                <div class="event-type flex flex-1" >
+                  <button>
+                    <img src="./assets/icons/building-2.svg" alt="Ícone de um prédio">
+                    <span>Presencial</span>
+                  </button>
+
+                  <button>
+                    <img src="./assets/icons/video.svg" alt="Ícone de uma câmera">
+                    <span>Presencial</span>
+                  </button>
+
+                </div>
+              </div>
+
+                <div class="input-wrapper flex-1">
+                  <label for="website">Local</label>
+                  <input type="url" id="website" name="website" placeholder="Link ou endereço">
+                </div>
+            </div>  
 
             <div class="textarea-wrapper">
-              <label for="description">Descrição</label>
-              <textarea name="description" id="description" cols="40" rows="8" placeholder="Escreva sobre os detalhes do evento"></textarea>
+                <label for="description">Descrição</label>
+                <textarea name="description" id="description" cols="40" rows="8" placeholder="Escreva sobre os detalhes do evento"></textarea>
             </div>
-
           </fieldset>
         </form>
       </div>
