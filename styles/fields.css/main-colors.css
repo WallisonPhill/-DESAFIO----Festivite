@@ -1,0 +1,70 @@
+.main-colors {
+  width: 100%;
+  
+  display: flex;
+  justify-content: space-evenly;
+
+}
+ 
+.main-colors button {
+  margin-top: 1rem;
+
+  height: 3rem;
+  width: 3rem;
+
+  border: .3rem solid var(--shape-button);
+  border-radius: 50%;    
+}  
+  
+.main-colors button:hover {
+  border: .3rem solid var(--shape-hover);
+}
+
+.main-colors button:focus, .main-colors button:active {
+  border: .3rem solid var(--brand-mid);
+  outline: none;
+}
+
+#btn-1 {
+  background-color: var(--brand-light);
+}
+
+#btn-2 {
+  background-color: #6A59FF;
+}
+
+#btn-3 {
+  background-color: #B259FF;
+}
+
+#btn-4 {
+  background-color: #FF59F9;
+}
+
+#btn-5 {
+  background-color: #FF598B;
+}
+
+#btn-6 {
+  background-color: #FF5959;
+}
+
+#btn-7 {
+  background-color: #FF8B59;
+}
+
+#btn-8 {
+  background-color: #FFCD59;
+}
+
+#btn-9 {
+  background-color: #E1FF59;
+}
+
+#btn-10 {
+  background-color: #59FF91;
+}
+
+#btn-11 {
+  background-color: #59FFF9;
+}
