@@ -1,0 +1,33 @@
+input, textarea {
+  appearance: none;
+  width: 100%;
+
+  border-radius: .5rem;
+  border: 1px solid var(--input-stroke);
+
+  background-color: var(--input-base);
+
+  font: var(--body-md);
+  color: var(--text-heading);
+
+  margin-top: .75rem;
+
+  padding: .75rem .5rem;
+
+  &::placeholder {
+    font: var(--body-md);
+    color: var(--input-placeholder);
+  }
+}
+
+label {
+  font: var(--body-md);
+  color: var(--text-body);
+}
+
+input:focus,
+textarea:focus {
+  outline: 1px solid var(--brand-light);
+  border: .5px solid var(--brand-mid);
+  outline-offset: .1px;
+}

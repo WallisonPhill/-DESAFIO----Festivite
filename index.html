@@ -40,34 +40,52 @@
 
             <div class="input-wrapper">
               <label for="title">Título</label>
-              <input type="text" name="title" id="title"
-              placeholder="Digite o título do evento">
-            </div>
-
-            <div class="input-wrapper">
-              <label for="start">Início</label>
-              <input type="date" name="start" id="start">
-            </div>
-
-            <div class="input-wrapper">
-              <label for="end">Fim</label>
-              <input type="date" name="end" id="end">
-            </div>
-
-            <div class="radio-wrapper">
-              <label for="options">Tipo</label>
-              <div class="option">
-                <input type="radio" id="presential" name="presential" value="Presencial">
-                <img src="./assets/icons/building-2.svg" alt="Ícone de prédio">
-                <label for="presential">Presencial</label>
-              </div>
+              <input type="text" name="title" id="title" placeholder="Digite o título do evento">
+          </div>
+          
+          <div class="input-wrapper">
+            <div class="date-time-container">
+              <div class="input-date-time">
+                <label for="start">Início</label>
+                <input type="datetime-local" name="start" id="start">
+              </div>  
               
-              <div class="option">
-                <input type="radio" id="online" name="online" value="Online">
-                <img src="./assets/icons/video.svg" alt="Ícone de câmera">
-                <label for="online">Online</label>
-              </div>      
-            
+              <div class="input-date-time">
+                <label for="end">Fim</label>
+                <input type="datetime-local" name="end" id="end">
+              </div>
+            </div>  
+          </div>
+
+          <div class="segmented-control">
+            <label for="option">Tipo</label>
+
+            <div class="event-type" >
+              <button>
+                <img src="./assets/icons/building-2.svg" alt="Ícone de um prédio">
+                <span>Presencial</span>
+              </button>
+
+              <button>
+                <img src="./assets/icons/video.svg" alt="Ícone de uma câmera">
+                <span>Presencial</span>
+              </button>
+
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
             <div class="input-wrapper">
               <label for="website">Local</label>
               <input type="url" id="website" name="website" placeholder="Link ou endereço">
@@ -75,7 +93,7 @@
 
             <div class="textarea-wrapper">
               <label for="description">Descrição</label>
-              <textarea name="description" id="description" cols="30" rows="6" placeholder="Escreva sobre os detalhes do evento"></textarea>
+              <textarea name="description" id="description" cols="40" rows="8" placeholder="Escreva sobre os detalhes do evento"></textarea>
             </div>
 
           </fieldset>

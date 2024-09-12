@@ -7,7 +7,7 @@
 :root {
   --brand-light: #59B2FF;
   --brand-mid: #3487CF;
-  --brand-mid: #1D6FB6;
+  --brand-dark: #1D6FB6;
 
   --input-base: #1C1F21;
   --input-stroke: #363B40;
@@ -30,5 +30,5 @@
 }
 
 body {
-  overflow: hidden;
+  overflow: auto;
 }
