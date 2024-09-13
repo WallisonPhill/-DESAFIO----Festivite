@@ -31,3 +31,8 @@ textarea:focus {
   border: .5px solid var(--brand-mid);
   outline-offset: .1px;
 }
+
+.switch-file {
+  display: flex;
+  gap: 7rem;
+}
