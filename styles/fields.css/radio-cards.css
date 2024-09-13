@@ -1,0 +1,58 @@
+.radio-theme {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8.4rem, 1fr));
+  gap: .5rem;
+
+  margin-top: 1.5rem;
+}
+
+.radio-card {
+  position: relative;
+}
+
+.radio-card input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.card-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 8.4rem;
+  height: 6.45rem;
+  padding: 1rem;
+
+  color: var(--text-heading);
+  font: var(--body-sm);
+
+  border: 2px solid var(--input-stroke);
+  border-radius: .5rem;
+
+  background-color: var(--shape-button);
+
+  cursor: pointer;
+  transition: border 0.3s ease;
+}
+
+.card-label img {
+  width: 7.875rem;
+  height: 4rem;
+  object-fit: cover;
+  margin-bottom: .5rem;
+}
+
+.radio-card input[type="radio"]:checked + .card-label {
+  border: 2px solid var(--brand-light);
+}
+
+.radio-card input[type="radio"]:focus + .card-label {
+  border: 2px solid var(--brand-light);
+}
+
+.radio-card input[type="radio"] + .card-label:hover {
+  border-color: var(--input-placeholder);
+}
