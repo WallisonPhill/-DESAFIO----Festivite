@@ -1,0 +1,15 @@
+.btn-create {
+  margin-top: 3rem;
+  margin-left: auto;
+  padding-block: 1rem;
+
+  display: flex;
+  align-items: center;
+
+  font: var(--body-md);
+  color: var(--text-heading);
+
+  border-radius: .5rem;
+  background-color: var(--brand-dark);
+
+}
