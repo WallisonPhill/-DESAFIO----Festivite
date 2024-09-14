@@ -36,3 +36,7 @@ textarea:focus {
   display: flex;
   gap: 7rem;
 }
+
+.email-phone {
+  gap: 3rem;
+}

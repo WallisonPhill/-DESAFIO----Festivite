@@ -246,7 +246,31 @@
                 </div>
               </div>
             </div>
+          </fieldset>
 
+          <fieldset class="info">
+            <legend>
+              <img src="./assets/icons/contact.svg" alt="icone de uma silhueta de informaçoes">
+              <span>Dados para contato</span>
+            </legend>
+
+            <div class="input-wrapper">
+              <label for="name">Nome</label>
+              <input type="text" name="name" id="name" required placeholder="Nome completo">
+            </div>
+
+            <div class="flex email-phone">
+                <div class="input-wrapper flex-1">
+                  <label for="email">E-mail</label>
+                  <input type="email" name="email" id="email" placeholder="exempo@email.com">
+                </div>
+
+                <div class="input-wrapper">
+                  <label for="phone">Telefone</label>
+                  <input type="tel" name="phone" id="phone" placeholder="(xx) xxxxx-xxxx" required
+                  maxlength="11">
+                </div> 
+            </div>
           </fieldset>
         </form>
       </div>
