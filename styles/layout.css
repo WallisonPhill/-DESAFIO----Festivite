@@ -1,11 +1,9 @@
 #app {
   display: grid;
   grid-template-columns: 31.25% 68.75%;
-  gap: 1rem;
+  gap: .75rem;
 
-  height: 100vh;
-  overflow: hidden;
-
+  margin: auto;
   background-color: var(--shape-background);
 }
 

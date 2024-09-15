@@ -40,19 +40,19 @@
 
             <div class="input-wrapper">
               <label for="title">Título</label>
-              <input type="text" name="title" id="title" placeholder="Digite o título do evento">
+              <input type="text" name="title" id="title" placeholder="Digite o título do evento" required>
             </div>
           
             <div class="input-wrapper">
               <div class="date-time-container">
                 <div class="input-date-time">
                   <label for="start">Início</label>
-                  <input type="datetime-local" name="start" id="start">
+                  <input type="datetime-local" name="start" id="start" required>
                 </div>  
                 
                 <div class="input-date-time">
                   <label for="end">Fim</label>
-                  <input type="datetime-local" name="end" id="end">
+                  <input type="datetime-local" name="end" id="end" required>
                 </div>
               </div>  
             </div>
@@ -69,7 +69,7 @@
 
                   <button>
                     <img src="./assets/icons/video.svg" alt="Ícone de uma câmera">
-                    <span>Presencial</span>
+                    <span>Online</span>
                   </button>
 
                 </div>
@@ -77,13 +77,13 @@
 
                 <div class="input-wrapper flex-1">
                   <label for="website">Local</label>
-                  <input type="url" id="website" name="website" placeholder="Link ou endereço">
+                  <input type="url" id="website" name="website" placeholder="Link ou endereço" required>
                 </div>
             </div>  
 
             <div class="textarea-wrapper">
                 <label for="description">Descrição</label>
-                <textarea name="description" id="description" cols="40" rows="8" placeholder="Escreva sobre os detalhes do evento"></textarea>
+                <textarea name="description" id="description" cols="40" rows="8" placeholder="Escreva sobre os detalhes do evento" required></textarea>
             </div>
           </fieldset>
 

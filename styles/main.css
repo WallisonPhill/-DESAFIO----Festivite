@@ -5,11 +5,14 @@ main {
 
   overflow: auto;
 
+  width: 51.25rem;
+
   display: flex;
   justify-content: center;
 
   margin-block: 1.5rem;
-  padding-block: 5rem;  
+  margin-right: auto;
+  padding: 2rem 4rem 0;  
   
   & .invite {
     width: 100%;

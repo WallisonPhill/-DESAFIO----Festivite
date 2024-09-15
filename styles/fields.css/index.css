@@ -18,6 +18,7 @@ input, textarea {
     font: var(--body-md);
     color: var(--input-placeholder);
   }
+
 }
 
 label {

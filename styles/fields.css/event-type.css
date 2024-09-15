@@ -28,7 +28,8 @@ button {
   border: transparent;
 }
 
-button:focus, button:hover {
+.event-type button:focus, 
+.event-type button:hover {
   cursor: pointer;
   background-color: var(--shape-hover);
 }

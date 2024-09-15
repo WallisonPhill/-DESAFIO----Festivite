@@ -1,7 +1,6 @@
 .btn-create {
-  margin-top: 3rem;
+  margin-top: 1.5rem;
   margin-left: auto;
-  padding-block: 1rem;
 
   display: flex;
   align-items: center;
@@ -11,5 +10,4 @@
 
   border-radius: .5rem;
   background-color: var(--brand-dark);
-
 }
